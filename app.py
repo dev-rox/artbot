@@ -31,7 +31,7 @@ def run():
         titleArt = title + ' - ' + artist
         T.PostUpdate(titleArt, img )
         print(titleArt)
-        time.sleep(1800)
+        time.sleep(28800)
         run()
     else:
         run()
